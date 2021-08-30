@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <meta charset="utf-f 8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="home.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+
+
+         
+
+
+
+
+
+    </head>
+
+    <body class="body1" onload="myFunction()">
+      <div id="loader"></div>
+
+      <div style="display:none;" id="myDiv" class="animate-bottom">
+
+      
+      
+      <script>
+      var myVar;
+      
+      function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+      }
+      
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+      </script>
+    
+    <!----------- The NavBar    -->
+    <nav class="navbar navbar-expand-lg navbar-light " 
+    style="margin-bottom: 5px; background-color: black; height: 50px;" >
+      <div class="container-fluid">
+        <h3 style="padding-top: 5px;padding-left: 5px;"><span style="color: orange;">YLA</span><span style="color: white;">GYM</span> </h3>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="file:///D:/Gym-Website/sign-in_form.html?">Sign-In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="file:///D:/Gym-Website/Registeration_form.html">Sign-Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="file:///D:/Gym-Website/contact-us.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Our Classes
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Yoga</a>
+                <a class="dropdown-item" href="#"> weighting left</a>
+                <a class="dropdown-item" href="#"> Fitness</a>
+                <a class="dropdown-item" href="#"> Private & Group</a>
+              </div> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+          <!------- The End -->
+
+
+      <div class="contianer">
+          <div class="bigPhoto" >
+                <h1 class="slogan">Build Perfect Body <br> With Clean Mind</h1>
+                <p style="padding:15px; color:white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and scrambled <br> it to make a type specimen book. It has survived not only five centuries,<br> but also the leap into electronic typesetting, remaining essentially unchanged. <br> It was popularised in the 1960s with the release of Letraset sheets containing </p>
+                <button class="btn btn-primary" style="background-color: orange;padding-left: 20px;border-radius: 15px;margin-left: 10px;text-align: center;">Read More</button>
+                    <!--- Div of social media-->
+                <div  style=" width: 100%;display: flex; margin-top: 10px;">
+                  <div style="width: 33.3333%; display: inline;">
+                  <div class="social" >
+                    <svg class="social1" version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <title>social-facebook-circular</title>
+                    <path d="M18.354 5.624c-1.75-1.741-3.888-2.624-6.354-2.624-2.489 0-4.633 0.884-6.373 2.625-1.743 1.741-2.627 3.887-2.627 6.375 0 2.465 0.883 4.603 2.624 6.354 1.741 1.756 3.886 2.646 6.376 2.646 2.467 0 4.605-0.89 6.356-2.643 1.755-1.753 2.644-3.892 2.644-6.357 0-2.488-0.89-4.634-2.646-6.376zM16.942 16.943c-1.137 1.139-2.436 1.788-3.942 1.985v-4.928h2v-2h-2v-1.4c0-0.331 0.269-0.6 0.601-0.6h1.399v-2h-1.397c-0.742 0-1.361 0.273-1.857 0.822-0.496 0.547-0.746 1.215-0.746 2.008v1.17h-2v2h2v4.93c-1.522-0.195-2.826-0.845-3.957-1.984-1.375-1.384-2.043-3.002-2.043-4.946 0-1.966 0.667-3.588 2.042-4.96 1.37-1.373 2.992-2.040 4.958-2.040 1.945 0 3.562 0.668 4.945 2.043 1.383 1.372 2.055 2.994 2.055 4.957 0 1.941-0.673 3.559-2.058 4.943z"></path>
+                    </svg>
+                  </div>
+                  <div class="social" >
+                    <svg class="social1" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <title>twitter</title>
+                    <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+                    </svg>
+                  </div>
+                </div>
+              </div><!---end of Div of social media-->
+              
+          </div>
+
+        <!------- The div of men and women-->
+        <div class="MenAndWomen" style="width: 100%;">
+            <div class="Men" style="width: 50%;">
+                  <h3 style="margin-top: 100px;"> Men Classes</h3>  
+                  <p style="color: white;padding: 10px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <button class="btn btn-primary" style="color: white;border-radius: 15px;width: 110px; background-color: orange; ">Read More</button>
+            </div>
+
+            <div class="women" style="width: 50%;">
+                <h3 style="margin-top: 100px;"> Women Classes</h3>
+                <p style="color: white;padding: 10px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <button class="btn btn-primary" style="color: white;border-radius: 15px;width: 110px; background-color: orange;">Read More</button>
+            </div>
+
+        </div>
+
+        <!------- THE end of men and women-->
+       
+        <div class="category">
+          <div class="classes_of_categ" style="background-image: url(images/yoga1.jpg);background-size: contain; background-repeat: no-repeat;">
+                <h2 style="color: white;">Yoga Classes</h2>
+          </div>
+
+          <div class="classes_of_categ" style="background-image: url(images/download.jpeg);background-size: contain; background-repeat: no-repeat;" >
+            <h2 style="color: white;">Muscle & Fitness</h2>
+          </div>
+
+          <div class="classes_of_categ">
+            <h2 style="color: white;">Medication</h2>
+          </div>
+
+          <div class="classes_of_categ"  style="background-image: url(images/fit.jpeg);background-size: contain; background-repeat: no-repeat;">
+            <h2 style="color: white;">Fitness classes</h2>
+          </div>
+
+          <div class="classes_of_categ" style="background-image: url(images/private.jpg);background-size: contain; background-repeat: no-repeat;">
+            <h2 style="color: white;">Private & Group classes</h2>
+          </div>
+
+        </div>
+     
+
+      <!--- the start of about us section-->
+      <div class="About-us" style="width: 1000px; height: auto; margin-top: 10px;margin-left: 100px;">
+        
+              <h4>About us</h4>
+              <h6 style="padding-bottom:10px;">We believe fitness should be accessible to everyone, <br> everywhere, regardless to income <br> level or acess to a gym </h6>
+              <div style="width: 100%; display: flex;">
+                <div style="width: 33.333%; display: inline;">
+                  <h1>32+</h1>
+                  <p style="color: white;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                </div>
+
+                <div style="width: 33.333%;display: inline;">
+                  <h1>400+</h1>
+                  <p style="color: white;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                </div>
+
+                <div style="width: 33.333%;display: inline;">
+                    <h1>23+</h1>
+                    <p style="color: white;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                </div>
+              </div>
+        
+     </div>
+
+     <!--- the end of about us section-->
+
+
+
+
+    </div> <!--- end of container-->
+
+    <footer>
+      <div class="foot" style="background-color: black; width: 100%;display: flex;">
+        <div style="width: 33.3333%; display: inline;">
+            <h3 style="padding-top: 5px;padding-left: 5px;margin-left: 20px;"><span style="color: orange;">YLA</span><span style="color: white;">GYM</span> </h3>
+            <div class="social" >
+              <svg class="social1" version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+              <title>social-facebook-circular</title>
+              <path d="M18.354 5.624c-1.75-1.741-3.888-2.624-6.354-2.624-2.489 0-4.633 0.884-6.373 2.625-1.743 1.741-2.627 3.887-2.627 6.375 0 2.465 0.883 4.603 2.624 6.354 1.741 1.756 3.886 2.646 6.376 2.646 2.467 0 4.605-0.89 6.356-2.643 1.755-1.753 2.644-3.892 2.644-6.357 0-2.488-0.89-4.634-2.646-6.376zM16.942 16.943c-1.137 1.139-2.436 1.788-3.942 1.985v-4.928h2v-2h-2v-1.4c0-0.331 0.269-0.6 0.601-0.6h1.399v-2h-1.397c-0.742 0-1.361 0.273-1.857 0.822-0.496 0.547-0.746 1.215-0.746 2.008v1.17h-2v2h2v4.93c-1.522-0.195-2.826-0.845-3.957-1.984-1.375-1.384-2.043-3.002-2.043-4.946 0-1.966 0.667-3.588 2.042-4.96 1.37-1.373 2.992-2.040 4.958-2.040 1.945 0 3.562 0.668 4.945 2.043 1.383 1.372 2.055 2.994 2.055 4.957 0 1.941-0.673 3.559-2.058 4.943z"></path>
+              </svg>
+            </div>
+            <div class="social" >
+              <svg class="social1" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>twitter</title>
+              <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+              </svg></div>
+
+        </div>
+
+        <div style="width: 33.3333%; display: inline;">
+             <h4 style="color: white;"> Support</h4>
+             <div>
+             <div class="contact" style="width: 100px;">Contact Us</div>
+             <div class="contact" style="width: 100px;">FAQ</div>
+             <div class="contact" style="width: 100px;">Downloads</div>
+             <div class="contact" style="width: 180px;">Product registeration</div>
+            </div>
+        </div>
+
+        <div id="sign-up" style="width: 33.3333%; display: inline;">
+
+            <input type="email" placeholder="Enter your email address" style="background-color: white; margin-top: 15px;color: black;width: 200px;">
+            <div style="margin-top: 5px;">
+            <input type="button" value="Sign-Up" style="background-color: red;color: white; width: 100px;border-radius: 15px;">
+        </div>
+
+        </div>
+               
+      </div>
+  </footer>
+
+  </div>
+
+
+ 
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>
