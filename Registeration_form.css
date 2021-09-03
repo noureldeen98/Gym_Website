@@ -73,6 +73,7 @@ form:hover{
     
 }
 
+
 h3{
     font-family: 'Archivo Black', sans-serif;
 }
@@ -107,4 +108,39 @@ h3 span{
      margin-left: 250px;
      background-color: orange;
      color: white;cursor: pointer;
+}
+
+
+/*Mobile device*/
+
+@media (max-width:767px){
+    form{
+        margin-left: 0px;
+        width: 450px;
+        margin-right: 10px;
+    }
+    form .form1 .firstandlast{
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    
+#first{
+    display: block;
+}
+
+.registerbtn{
+    background-position-x: center;
+}
+
+
+footer .categ3 .emailaddress{
+    width: 150px;
+   }
+  
+  }
+
+
+
+
 }
