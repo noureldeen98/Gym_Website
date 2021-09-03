@@ -21,46 +21,41 @@
  <body class="body1">
      
       <!----------- The NavBar    -->
-         <nav class="navbar navbar-expand-lg navbar-light " 
-                style="margin-bottom: 5px; background-color: black; height: 50px;" >
-                  <div class="container-fluid">
-                    <h3 style="padding-top: 5px;padding-left: 5px;"><span style="color: orange;font-weight: bolder;">YLA</span><span style="color: white;font-weight: bolder;">GYM</span> </h3>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="https://noureldeen98.github.io/Gym_Website/home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="https://noureldeen98.github.io/Gym_Website/sign-in_form.html">Sign-in</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="https://noureldeen98.github.io/Gym_Website/contact-us.html">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">About us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Our Classes
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Yoga</a>
-                            <a class="dropdown-item" href="#"> weighting left</a>
-                            <a class="dropdown-item" href="#"> Fitness</a>
-                            <a class="dropdown-item" href="#"> Private & Group</a>
-                          </div> 
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                      </ul>
-                     
-                    </div>
-                  </div>
-         </nav>
+      <nav class="navbar navbar-expand-lg navbar-light " 
+      style="margin-bottom: 5px; background-color: black; height: 50px;" >
+      <h3 style="padding-top: 5px;padding-left: 5px;"><span style="color: orange;font-weight: bolder;">YLA</span><span style="color: white;font-weight: bolder;">GYM</span> </h3>
+        <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;margin-bottom: 5px;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="background-color: black;padding-left: 10px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href= https://noureldeen98.github.io/Gym_Website/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href=" https://noureldeen98.github.io/Gym_Website/sign-in_form.html">Sign-in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href=" https://noureldeen98.github.io/Gym_Website/contact-us.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Our Classes
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Yoga</a>
+                <a class="dropdown-item" href="#"> weighting left</a>
+                <a class="dropdown-item" href="#"> Fitness</a>
+                <a class="dropdown-item" href="#"> Private & Group</a>
+              </div> 
+            </li>
+          </ul>
+        </div>
+      </nav>
       <!------- The End -->
 
      <div class="container">
@@ -71,19 +66,19 @@
                 <div class="row">
                    <div class="col">
                        <label>First name</label>
-                        <input type="text" placeholder="Enter your first name" required >
+                        <input class="firstandlast" id="first" type="text" placeholder="Enter your first name" required >
                     </div>
 
                     <div class="col">
                         <label style="display: block;">Last name</label>
-                        <input type="text" placeholder="Enter your last name" required style="display: block;" >
+                        <input class="firstandlast"  type="text" placeholder="Enter your last name" required style="display: block;" >
                     </div>
                 </div>
 
 
 
                 <label>Email</label>
-                <input type="email" placeholder="Enter your mail" required >
+                <input  type="email" placeholder="Enter your mail" required >
 
                 <label>Password</label>
                 <input type="text" placeholder="Enter your password" required>
@@ -91,7 +86,7 @@
                 <label>Confirm password</label>
                 <input type="text" placeholder="Confirm your password" required>
 
-                <button type="submit">Register Now</button>
+                <button class="registerbtn" type="submit">Register Now</button>
 
 
 
@@ -127,7 +122,7 @@
 
           </div>
 
-          <div style="width: 33.3333%; display: inline;">
+          <div style="width: 33.3333%; display: inline;padding: 10px;">
                <h4 style="color: white;"> Support</h4>
                <div>
                <div class="contact" style="width: 100px;">Contact Us</div>
@@ -137,11 +132,11 @@
               </div>
           </div>
 
-          <div id="sign-up" style="width: 33.3333%; display: inline;">
+          <div class="categ3" id="sign-up" style="width: 33.3333%; display: inline;">
 
-              <input type="email" placeholder="Enter your email address" style="background-color: white; margin-top: 15px;color: black;width: 200px;">
+              <input class="emailaddress" type="email" placeholder="Enter your email address" style="background-color: white; margin-top: 15px;color: black;">
               <div style="margin-top: 5px;">
-              <input type="button" value="Sign-Up" style="background-color: red;color: white; width: 100px;border-radius: 15px;">
+              <input  type="button" value="Sign-Up" style="background-color: red;color: white; width: 100px;border-radius: 15px;">
           </div>
 
           </div>
