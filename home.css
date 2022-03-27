@@ -1,0 +1,356 @@
+.body1{
+
+    background-color: #100c0d;
+}
+
+/* for loading */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid orange;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    
+  }
+
+  /* end of loading*/
+.navbar {
+    background-color: black;
+    
+}
+
+#navbarTogglerDemo02 a{
+    color:orange ;
+    padding-top: 15px;
+}
+
+#navbarTogglerDemo02 a:hover{
+    color:white ;
+    
+} 
+
+
+.bigPhoto{
+  background-image: url("images/10.jpeg");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.bigPhoto:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  border: 5px solid orange;
+}
+
+
+
+h3{
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+}
+
+h3 span{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+
+p{
+  color: white;
+}
+
+.slogan{
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: 'Anton', sans-serif;
+ 
+}
+
+.social{
+  display: inline;
+  padding: 10px;
+  margin-left: 10px;
+  
+}
+.social1{
+  fill: gray;
+  display: inline;
+}
+
+.social1:hover{
+  fill: orange;
+  cursor: pointer;
+
+}
+
+.contact:hover{
+    color: orange;
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.MenAndWomen{
+ 
+  display: flexbox;
+  background-color: black;
+  width: 100%;
+  margin-top: 20px;
+ 
+
+}
+
+.MenAndWomen .Men{
+  background-image: url("images/images\ \(1\).jpeg");
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  text-align: center;
+  color: white;
+}
+
+.MenAndWomen .women{
+  background-image: url("images/images\ \(12\).jpeg");
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: white;
+}
+
+.MenAndWomen .Men h3{
+  margin-top: 20px ;
+}
+
+.MenAndWomen .women h3{
+  margin-top: 50px ;
+}
+
+h3{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+h3 span{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.dropdown-menu .dropdown-item:hover{
+  background-color: black;
+
+}
+
+.contianer .category .classes_of_categ{
+  background-position-x: center;
+  background-size: cover;
+  border: 2px solid orange; 
+  border-radius: 15px;
+}
+
+.contianer .category .classes_of_categ:hover{
+  position: relative;
+  top: -125px;
+}
+
+
+.About-us{ 
+  border-radius: 20px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  height: auto; 
+  margin-top: 10px;
+
+}
+
+
+.About-us:hover{
+  
+  background-color: orange;
+  
+}
+
+
+
+
+
+
+/* Mediaa queries ----------------------------------------- */
+
+
+
+
+
+
+/* Mobile design */
+@media  (max-width:767px){
+
+.bigPhoto{
+    
+    background-size: cover;    
+  }
+
+.MenAndWomen{
+ 
+  display: flexbox;
+  background-color: black;
+  width: 100%;
+  margin-top: 20px;
+ 
+
+}
+
+.MenAndWomen .Men{
+  width: 100%;
+  background-size: cover;
+}
+
+.MenAndWomen .women{
+  width: 100%;
+
+  height: 200px;
+
+}
+
+.contianer .category{
+  background-color: black;
+   width: 100%;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.contianer .category .classes_of_categ{
+   height: 300px;
+
+}
+
+.About-us .about{
+  width: 100%;
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+footer .categ3 .emailaddress{
+  width: 150px;
+ }
+
+}
+
+#navbarTogglerDemo02{
+  background-color: black;
+}
+
+/*Tablets and Ipads */
+@media (min-width:768 px) and (max-width:1024 px){
+
+}
+    
+/* laptops and desktops */ 
+@media(min-width:1025 px) and (max-width:1280 px){
+
+}
+
+/* desktops */
+@media (min-width:1281px){
+
+  .contianer{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .bigPhoto{
+    width:1000px ; 
+    height: 650px;
+    
+ }
+
+ 
+
+ .MenAndWomen{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  margin-top: 20px;
+ 
+
+}
+
+.MenAndWomen .Men{
+  width: 50%;
+  height: 300px;
+  display: inline;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  
+}
+
+.MenAndWomen .women{
+  width: 50%;
+  height: 300px;
+  display: inline;
+  text-align: center;
+  color: white;
+}
+
+.contianer .category{
+  background-color: black;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.contianer .category .classes_of_categ{
+  width: 20%;
+  height:300px;
+  display: inline;
+}
+
+
+
+}

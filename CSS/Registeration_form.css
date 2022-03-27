@@ -111,6 +111,7 @@ h3 span{
 }
 
 
+<<<<<<< HEAD:CSS/Registeration_form.css
 
 
 
@@ -123,6 +124,11 @@ h3 span{
         
         width: 500px;
     }
+=======
+/*Mobile device*/
+
+@media (max-width:767px){
+>>>>>>> c9a84bcf82313c069e14a0bbe184b91f4959a059:Registeration_form.css
     form{
         margin-left: 0px;
         width: 450px;
@@ -146,6 +152,7 @@ h3 span{
 footer .categ3 .emailaddress{
     width: 150px;
    }
+<<<<<<< HEAD:CSS/Registeration_form.css
 
    footer .support{
     margin-left: 45px;
@@ -156,8 +163,15 @@ footer .categ3 .emailaddress{
     width:500px
 }
 
+=======
+  
+>>>>>>> c9a84bcf82313c069e14a0bbe184b91f4959a059:Registeration_form.css
   }
 
 
 
 
+<<<<<<< HEAD:CSS/Registeration_form.css
+=======
+}
+>>>>>>> c9a84bcf82313c069e14a0bbe184b91f4959a059:Registeration_form.css
