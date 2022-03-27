@@ -1,0 +1,181 @@
+.body1{
+    background-color: #100c0d;
+}
+
+.navbar,#navbarTogglerDemo02 {
+    background-color: black;
+    
+}
+
+
+
+#navbarTogglerDemo02 a{
+    color:orange ;
+    padding-top: 15px;
+    font-weight: bolder;
+}
+
+#navbarTogglerDemo02 a:hover{
+    color:white ;
+    
+}
+
+form{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+form .form1{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: black;
+
+}
+
+
+form:hover{
+    background-image: url(../images/images\ \(2\).jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center; 
+    border: 2px solid orange;
+    border-radius: 15px;
+    
+    
+}
+
+h3{
+    font-family: 'Archivo Black', sans-serif;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 50px;
+}
+
+h3 span{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+.social{
+    display: inline;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+.social1{
+    fill: gray;
+    display: inline;
+}
+
+.social1:hover{
+    fill: orange;
+    cursor: pointer;
+
+}
+
+.lableOfMail{
+    color: white; 
+    margin-bottom: 10px;
+}
+
+.inputmail{
+    display: block;  
+    margin-left: 100px;
+    width: 900px;
+}
+
+.lableOfPassword{
+    color: white;
+     margin-bottom: 10px; 
+     margin-top: 10px;
+}
+
+.inputpassword{
+    display: block;
+     margin-bottom: 10px; 
+     margin-left: 100px;
+     width: 900px;
+}
+
+.submit{
+    background-color: orange;
+    border-radius: 15px; 
+    width: 100px; 
+    color: white;
+    cursor: pointer;
+}
+
+
+@media (max-width:767px){
+    form{
+        margin-left: 0px;
+        width: 350px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    form .form1{
+       margin-left: 15px;
+    }
+     
+
+
+    form .inputmail{
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    form .inputpassword{
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    form h3{
+        margin-top: 100px;
+    }
+
+    footer .support{
+        margin-left: 45px;
+        padding-top: 5px;
+      }
+}
+
+/*Tablets and Ipads */
+@media (min-width:768px) and (max-width:1024px){
+    form{
+        margin-left: 0px;
+        width: 720px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    form .form1{
+       margin-left: 15px;
+    }
+     
+
+
+    form .inputmail{
+        width: 650px;
+        margin-left: 20px;
+    }
+
+    form .inputpassword{
+        width: 650px;
+        margin-left: 20px;
+    }
+
+}
+    
+/* laptops and desktops */ 
+@media(min-width:1025 px) and (max-width:1280 px){
+
+}

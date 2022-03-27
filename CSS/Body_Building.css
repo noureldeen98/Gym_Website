@@ -1,0 +1,215 @@
+.body1{
+    background-color: #100c0d;
+}
+
+.navbar {
+  background-color: black;
+  
+}
+
+#navbarTogglerDemo02 a{
+  color:orange ;
+  padding-top: 15px;
+}
+
+#navbarTogglerDemo02 a:hover{
+  color:white ;
+  
+} 
+
+.dropdown-menu .dropdown-item:hover{
+  background-color: black;
+
+}
+
+
+
+
+
+h3,h2{
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+}
+
+h3 span{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+
+p{
+  color: white;
+}
+
+.ManandWomanimg{
+    margin-top: 100px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+
+}
+
+.ManandWomanimg:hover{
+    border: 2px solid orange;
+    border-radius: 15px;
+
+}
+
+
+.paragraphAboutBodyBuilding{
+  background-color: black;
+  width: 100%;
+}
+
+
+.theBodyBuildingActivities{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.theBodyBuildingActivities .activityButtons .column button {
+  border-radius: 15px;
+  color: white;
+  background-color: orange;
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+   
+ }
+
+
+
+.theBodyBuildingActivities .activityButtons .column{
+  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 100%;
+  
+}
+
+
+
+
+footer .categ3 .emailaddress{
+    width: 150px;
+   }
+
+   .social{
+    display: inline;
+    padding: 10px;
+    margin-left: 10px;
+    
+  }
+  .social1{
+    fill: gray;
+    display: inline;
+  }
+  
+  .social1:hover{
+    fill: orange;
+    cursor: pointer;
+  
+  }
+  
+  .contact:hover{
+      color: orange;
+      box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+      cursor: pointer;
+  }
+
+
+
+/**** The media Query ***/
+
+/*Mobile*/
+@media (max-width:767px){
+
+  .contianer{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+    
+  .paragraphAboutBodyBuilding{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .ManandWomanimg{ /*for the image*/
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+  }
+
+  .theBodyBuildingActivities{
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+   
+  }
+
+
+  .theBodyBuildingActivities .activityButtons .column button {
+   width: 90px;
+   height: 50px;
+   
+  }
+
+footer{
+  width:auto;
+  background-color: black;
+}
+
+
+footer .support{
+    margin-left: 45px;
+    padding-top: 5px;
+  }
+
+footer #sign-up{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+ 
+
+
+}
+
+
+/*Tablets*/
+@media (min-width:768px) and (max-width:1024px){
+
+  .theBodyBuildingActivities{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px 15px 5px 15px ;
+    background-color: black;
+    width: 100%;
+  }
+
+}
+    
+/* laptops and desktops */ 
+@media(min-width:1025px) and (max-width:1280px){
+  .theBodyBuildingActivities{
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    /*margin: 5px 15px 5px 15px ;*/
+    background-color: black;
+   
+  }
+
+}
+
+/* desktops */
+@media (min-width:1281px){
+
+  .contianer{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
